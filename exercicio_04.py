@@ -1,17 +1,17 @@
 # Validação de Dados de Entrada
-# try:
-#     idade = int(input("Digite sua idade: "))
+try:
+    idade = int(input("Digite sua idade: "))
 
-#     if not 18 <= idade <= 65:
-#         print("A sua idade não está dentro das validações. ")
-#         exit()
+    if not 18 <= idade <= 65:
+        print("A sua idade não está dentro das validações. ")
+        exit()
 
-#     else:
-#         print("Sua idade é válida.", idade)
+    else:
+        print("Sua idade é válida.", idade)
 
-# except ValueError:
-#     print("Erro, digite uma idade numérica.")
-#     exit()
+except ValueError:
+    print("Erro, digite uma idade numérica.")
+    exit()
 
 try:
     email = input("Digite seu melhor e-mail: ").strip()
